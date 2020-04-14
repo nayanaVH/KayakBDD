@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="41.127794">
+<testcase classname="Kayak Search Page" name="Kayak Search Scenario" time="20.762687">
+<system-out><![CDATA[Given User is on Kayak Search page..........................................passed
+When User Verify the PageTitle "Search Flights, Hotels & Rental Cars | KAYAK".passed
+When User Closes Defualt Selection and Enters From Location "Denver"........passed
+Then User Enters To Location "San Francisco"................................passed
+Then User Enter Start Date "04/17/2020".....................................passed
+Then User Enter End Date "04/20/2020".......................................passed
+When User Selects Row in Search Selection...................................passed
+Then Close the Browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Kayak Search Page" name="Kayak Search Scenario 2" time="20.365107">
+<system-out><![CDATA[Given User is on Kayak Search page..........................................passed
+When User Verify the PageTitle "Search Flights, Hotels & Rental Cars | KAYAK".passed
+When User Closes Defualt Selection and Enters From Location "Miami".........passed
+Then User Enters To Location "Atlanta"......................................passed
+Then User Enter Start Date "04/18/2020".....................................passed
+Then User Enter End Date "04/21/2020".......................................passed
+When User Selects Row in Search Selection...................................passed
+Then Close the Browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
